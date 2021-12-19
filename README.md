@@ -8,3 +8,4 @@ SELECT *, sum(salary) as total_salary from employees  INNER JOIN salaries
                 GROUP by salaries.emp_no
                 order by total_salary DESC
                 limit 1
+![result](https://user-images.githubusercontent.com/77973041/146677827-85eedae0-8125-404c-aad3-186e48f7a0db.png)
